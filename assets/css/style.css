@@ -50,7 +50,6 @@ html {
   color: white !important;
 }
 
-
 /* Overlay for readability */
 .hero-overlay {
   position: absolute;
@@ -199,21 +198,20 @@ html {
   }
 }
 .stack-card {
-    background: linear-gradient(245deg, #fbfbfb, #ecedfa);
-border-radius: 10px;
+  background: linear-gradient(245deg, #fbfbfb, #ecedfa);
+  border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   display: flex;
-   flex-wrap: nowrap; 
-  
+  flex-wrap: nowrap;
 }
-.info{
-    border: 0.5px solid rgb(194, 190, 190);
-    color: #ccc;
-    font-size: 10px;
+.info {
+  border: 0.5px solid rgb(194, 190, 190);
+  color: #ccc;
+  font-size: 10px;
 }
-.info:hover{
-    background-color:#c5c0c0;
-    color: white;
+.info:hover {
+  background-color: #c5c0c0;
+  color: white;
 }
 /* Images container */
 .images {
@@ -228,30 +226,30 @@ border-radius: 10px;
   width: 80px;
   height: 140px;
   object-fit: cover;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, right 0.3s ease, z-index 0.3s;
 }
 
-@media(max-width:576px){
-    .images {
-  width: 130px;
-  height: 140px;
-  position: relative;
-}
+@media (max-width: 576px) {
+  .images {
+    width: 130px;
+    height: 140px;
+    position: relative;
+  }
 
-/* Stacked images */
-.stack-img {
-  position: absolute;
-  width: 130px;
-  height: 140px;
-  object-fit: cover;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, right 0.3s ease, z-index 0.3s;
-}
+  /* Stacked images */
+  .stack-img {
+    position: absolute;
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, right 0.3s ease, z-index 0.3s;
+  }
 }
 /* Default desktop positions */
 .img-1 {
@@ -535,7 +533,6 @@ border-bottom-right-radius: 10px;
   }
 }
 
-
 .section-heading {
   margin-bottom: 25px;
 }
@@ -690,8 +687,6 @@ border-bottom-right-radius: 10px;
   margin-top: 100px;
 }
 
-
-
 /* Common Image Style */
 .side-img {
   position: absolute;
@@ -796,14 +791,14 @@ a {
 }
 
 .bg {
-background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
+  background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
 }
 
 .card1 {
-    background: linear-gradient(32deg, #fbe3e9, #eef3cd, #fafdfb, white);
+  background: linear-gradient(32deg, #fbe3e9, #eef3cd, #fafdfb, white);
 }
-.secondary{
-    background-color: #ebe8e8;
+.secondary {
+  background-color: #ebe8e8;
 }
 /* Tablet (768px se neeche) */
 @media (max-width: 768px) {
@@ -919,7 +914,7 @@ background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
 @media (max-width: 996px) {
   .title {
     font-size: 10px;
-      flex: 1;
+    flex: 1;
   }
 }
 .product-card1 {
@@ -994,106 +989,124 @@ background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
 
 @media (max-width: 768px) {
   .product-card2 {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  background: #fff;
-  position: relative;
-  height: 350px;
-  width: 100%;
-  gap: 30px;
-}
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #fff;
+    position: relative;
+    height: 350px;
+    width: 100%;
+    gap: 30px;
+  }
 }
 @media (max-width: 375px) {
   .product-card2 {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  background: #fff;
-  position: relative;
-  height: 340px;
-  width: 100%;
-  gap: 30px;
-}
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #fff;
+    position: relative;
+    height: 340px;
+    width: 100%;
+    gap: 30px;
+  }
 }
 @media (max-width: 320px) {
   .product-card2 {
-  border: 1px solid #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #fff;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    gap: 30px;
+  }
+}
+/* Gradient background for the whole column */
+.benefits-section {
+  padding: 20px;
   border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  background: #fff;
-  position: relative;
-  height: 300px;
-  width: 100%;
-  gap: 30px;
 }
+.bgs {
+  background: linear-gradient(135deg, #f1ecec, #ffffff);
 }
-    /* Gradient background for the whole column */
-    .benefits-section {
-    
-        padding: 20px;
-        border-radius: 10px;
-    }
-    .bgs{
-              background: linear-gradient(135deg, #f1ecec, #ffffff);
-    }
 
-    /* Icon wrapper for circle border */
-    .icon-circle {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #e6fad9; /* light background inside */
-        border: 1px solid transparent; /* default transparent */
-    }
-
-    /* Image inside icon circle */
-    .icon-circle img {
-        width: 30px;
-        height: 30px;
-        object-fit: contain;
-    }
-
-    /* Example: match border color to each image */
-    .border-money,  .border-custom,.border-unlimited {
-        border-color: #28a745; /* green */
-    }
-@media(max-width:576px){
-    .images {
-  width: 130px;
-  height: 140px;
-  position: relative;
-  min-width: 130px;
-}
-.stack-card {
-    background: linear-gradient(245deg, #fbfbfb, #ecedfa);
-border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+/* Icon wrapper for circle border */
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   display: flex;
-  flex-wrap: nowrap;
-  
+  align-items: center;
+  justify-content: center;
+  background-color: #e6fad9; /* light background inside */
+  border: 1px solid transparent; /* default transparent */
 }
-/* Stacked images */
-.stack-img {
-  position: absolute;
-  width: 40px;
-  height: 140px;
-  object-fit: cover;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, right 0.3s ease, z-index 0.3s;
+
+/* Image inside icon circle */
+.icon-circle img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
+
+/* Example: match border color to each image */
+.border-money,
+.border-custom,
+.border-unlimited {
+  border-color: #28a745; /* green */
+}
+@media (max-width: 576px) {
+  .images {
+    width: 130px;
+    height: 140px;
+    position: relative;
+    min-width: 130px;
+  }
+  .stack-card {
+    background: linear-gradient(245deg, #fbfbfb, #ecedfa);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  /* Stacked images */
+  .stack-img {
+    position: absolute;
+    width: 40px;
+    height: 140px;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, right 0.3s ease, z-index 0.3s;
+  }
 }
 @media (max-width: 576px) {
   .fs {
- font-size: 10px;
- padding: 120px;
+    font-size: 10px;
+    padding: 120px;
   }
+}
+/* Default (navbar closed) - white icon */
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* When navbar is opened */
+.navbar.nav-opened {
+  background-color: white !important;
+}
+
+.navbar.nav-opened .navbar-toggler-icon {
+  filter: invert(0); /* black icon */
+}
+
+.navbar.nav-opened .nav-link,
+.navbar.nav-opened .navbar-brand {
+  color: black !important;
 }

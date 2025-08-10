@@ -2556,6 +2556,21 @@
         });
     </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const navbar = document.querySelector(".navbar");
+    const toggler = document.querySelector(".navbar-toggler");
+    const collapse = document.getElementById("navbarSupportedContent");
+
+    collapse.addEventListener("shown.bs.collapse", function() {
+        navbar.classList.add("nav-opened");
+    });
+
+    collapse.addEventListener("hidden.bs.collapse", function() {
+        navbar.classList.remove("nav-opened");
+    });
+});
+</script>
 
 </body>
 
