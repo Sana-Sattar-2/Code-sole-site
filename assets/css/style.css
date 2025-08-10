@@ -1000,8 +1000,21 @@ background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
   transition: transform 0.3s ease;
   background: #fff;
   position: relative;
+  height: 350px;
+  width: 100%;
+  gap: 30px;
+}
+}
+@media (max-width: 576px) {
+  .product-card2 {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background: #fff;
+  position: relative;
   height: 300px;
-  width: 200px;
+  width: 100%;
   gap: 30px;
 }
 }
