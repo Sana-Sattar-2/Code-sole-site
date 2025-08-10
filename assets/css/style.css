@@ -27,6 +27,29 @@ html {
   background-size: cover;
   background-position: center;
 }
+/* Transparent navbar initially */
+.navbar-transparent {
+  background-color: transparent !important;
+  transition: background-color 0.4s ease;
+}
+
+/* Scroll hone ke baad dark background */
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Text always white initially */
+.navbar-transparent .nav-link,
+.navbar-transparent .navbar-brand {
+  color: white !important;
+}
+
+/* Scroll hone ke baad text white hi rahe */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-brand {
+  color: white !important;
+}
+
 
 /* Overlay for readability */
 .hero-overlay {
@@ -512,10 +535,6 @@ border-bottom-right-radius: 10px;
   }
 }
 
-/* Container & Layout */
-.container {
-  padding: 60px 15px;
-}
 
 .section-heading {
   margin-bottom: 25px;
@@ -671,9 +690,7 @@ border-bottom-right-radius: 10px;
   margin-top: 100px;
 }
 
-.container.position-relative {
-  position: relative;
-}
+
 
 /* Common Image Style */
 .side-img {
@@ -779,7 +796,7 @@ a {
 }
 
 .bg {
-  background: linear-gradient(35deg, #f0fcfa, #ffffff, #f0fcfa);
+background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
 }
 
 .card1 {
@@ -976,7 +993,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  ..product-card2 {
+  .product-card2 {
   border: 1px solid #ddd;
   border-radius: 10px;
   overflow: hidden;
