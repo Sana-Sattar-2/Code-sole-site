@@ -1005,7 +1005,7 @@ background: linear-gradient(250deg, #cbe7e3, #ffffff, #f0fcfa);
   gap: 30px;
 }
 }
-@media (max-width: 576px) {
+@media (min-width: 600px) {
   .product-card2 {
   border: 1px solid #ddd;
   border-radius: 10px;
